@@ -31,7 +31,43 @@ yarn add @maxchang/jsx-dom
 npm install @maxchang/jsx-dom
 ```
 
+## Usage 
+
 See [userscript-tsx-starter](https://github.com/maxchang3/userscript-tsx-starter) for a complete example of using `vite-plugin-monkey` with `@maxchang/jsx-dom`.
+
+Reference [jsx-dom](https://github.com/alex-kinokon/jsx-dom#usage).
+
+```jsonc
+// tsconfig.json
+{
+  "jsx": "preserve",
+  "jsxImportSource": "@maxchang/jsx-dom",
+}
+```
+
+```js
+// esbuild
+{
+  jsxInject: `import React from "@maxchang/jsx-dom"`,
+  jsx: 'transform',
+}
+```
+
+```js
+// vite.config.js
+{
+    plugins: [
+        monkey({
+          //...
+            build: {
+                externalGlobals: {
+                    '@maxchang/jsx-dom': cdn.jsdelivrFastly(`jsxDOM.default`, `dist/index.js`),
+                },
+            },
+        }),
+    ],
+}
+```
 
 ## Why Not ...?
 
