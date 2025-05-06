@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "@maxchang/jsx-dom",
   "version": "8.1.6",
   "type": "commonjs",
@@ -14,7 +13,7 @@
       "import": "./dist/jsx-runtime.mjs"
     }
   },
-  "main": "./dist/index.cjs",
+  "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": ["dist"],
   "scripts": {
