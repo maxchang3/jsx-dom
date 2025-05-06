@@ -34,3 +34,9 @@ npm install @maxchang/jsx-dom
 - violentmonkey's [vm-dom](https://github.com/violentmonkey/vm-dom)
   - Based on `@gera2ld/jsx-dom`, which is not actively maintained.
   - Do not have type definitions for `jsx-runtime`.
+
+## License
+
+This project is licensed under the BSD 3-Clause License, the same as [jsx-dom](https://github.com/alex-kinokon/jsx-dom), which it repackages in UMD format.
+
+See [LICENSE](./LICENSE) for details.
