@@ -21,7 +21,8 @@
     "typecheck": "tsc --noEmit",
     "check": "biome check --write",
     "dev": "rslib build --watch",
-    "format": "biome format --write"
+    "format": "biome format --write",
+    "release": "pnpm check && pnpm build && bumpp && pnpm publish"
   },
   "dependencies": {
     "jsx-dom": "^8.1.6"
@@ -31,6 +32,7 @@
     "@maxchang/biome-config": "^0.0.5",
     "@rslib/core": "^0.6.8",
     "@types/node": "^22.8.1",
+    "bumpp": "^10.1.0",
     "typescript": "^5.8.3"
   }
 }
