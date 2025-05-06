@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    paths:
+      - "**.ts"
+      - ".github/workflows/**"
+  pull_request:
+    branches:
+      - master
+    paths:
+      - "**.ts"
+      - ".github/workflows/**"
+
+jobs:
+  CI:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+          run_install: true
+
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - name: Typecheck
+        run: pnpm typecheck
+
+      - name: Check
+        run: pnpm check
+
