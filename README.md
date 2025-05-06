@@ -37,6 +37,6 @@ npm install @maxchang/jsx-dom
 
 ## License
 
-This project is licensed under the BSD 3-Clause License, the same as [jsx-dom](https://github.com/alex-kinokon/jsx-dom), which it repackages in UMD format.
+This project is licensed under the BSD 3-Clause License, the same as [jsx-dom](https://github.com/alex-kinokon/jsx-dom).
 
 See [LICENSE](./LICENSE) for details.
