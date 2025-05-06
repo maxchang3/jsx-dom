@@ -1,5 +1,9 @@
 # @maxchang/jsx-dom
 
+[![npm](https://img.shields.io/npm/v/@maxchang/jsx-dom.svg?style=flat-square&color=444)](https://www.npmjs.com/package/@maxchang/jsx-dom)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/maxchang3/jsx-dom/ci.yml?style=flat-square&label=CI)](https://github.com/maxchang3/jsx-dom/actions)
+[![Checked with Biome](https://img.shields.io/badge/Checked_with-Biome-60a5fa?style=flat-square&logo=biome)](https://biomejs.dev)
+
 A browser and userscript-friendly repackaging of [alex-kinokon/jsx-dom](https://github.com/alex-kinokon/jsx-dom).
 
 
