@@ -31,7 +31,7 @@ yarn add @maxchang/jsx-dom
 npm install @maxchang/jsx-dom
 ```
 
-See [userscript-monkey-tsx-starter](https://github.com/maxchang3/userscript-monkey-tsx-starter) for a complete example of using `vite-plugin-monkey` with `@maxchang/jsx-dom`.
+See [userscript-tsx-starter](https://github.com/maxchang3/userscript-tsx-starter) for a complete example of using `vite-plugin-monkey` with `@maxchang/jsx-dom`.
 
 ## Why Not ...?
 
